@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <style media="screen">
+  .container{
+   margin-top: 20px;
+  }
+  .row{
+   background: #e8e8e8;
+  }
+  .columna{
+   background: #f2f2f2;
+   text-align: center;
+   padding: 10px;
+   border: 1px solid #4d5061;
+  }
+  .columna_interior{
+   background: #e8e8e8;
+   padding: 10px;
+   border: 1px solid #4d5061;
+  }
+  </style>
+  <title>Grid</title>
+ </head>
+ <body>
+  <div class="container">
+   <div class="row">
+    <div class="columna col-6">
+     Columna 1
+     <div class="row">
+      <div class="col columna_interior">
+       columna 1.1
+      </div>
+      <div class="col columna_interior">
+       columna 1.2
+      </div>
+     </div>
+    </div>
+    <div class="columna col-6">
+     Columna 2
+     <div class="row justify-content-around">
+      <div class="col-2 columna_interior">
+       Col 2.1
+      </div>
+      <div class="col-2 columna_interior">
+       Col 2.2
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <script type="text/javascript" src="../js/jquery-3.5.0.min.js"></script>
+  <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+ </body>
+</html>
