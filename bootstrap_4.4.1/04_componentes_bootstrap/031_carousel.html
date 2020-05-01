@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <title>Carousel</title>
+ </head>
+ <body>
+  <div class="container">
+   <div class="row">
+    <div class="col mt-3">
+     <div class="carousel slide" id="principal-carousel" data-ride="carousel">
+      <ol class="carousel-indicators">
+       <li data-target="#principal-carousel" data-slid-to="0" class="active"></li>
+       <li data-target="#principal-carousel" data-slid-to="1"></li>
+       <li data-target="#principal-carousel" data-slid-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+       <div class="carousel-item active">
+         <img src="../img/carousel1.jpg" alt="">
+       </div>
+       <div class="carousel-item">
+         <img src="../img/carousel2.jpg" alt="">
+       </div>
+       <div class="carousel-item">
+         <img src="../img/carousel3.jpg" alt="">
+       </div>
+      </div>
+      <a href="#principal-carousel" class="carousel-control-prev" data-slide="prev">
+       <span class="carousel-control-prev-icon" aria-hidenn="true"></span>
+       <span class="sr-only">Anterior</span>
+      </a>
+
+      <a href="#principal-carousel" class="carousel-control-next" data-slide="next">
+       <span class="carousel-control-next-icon" aria-hidenn="true"></span>
+      </a>
+     </div>
+
+    </div>
+   </div>
+   <div class="row">
+    <div class="col mt-3">
+     <div class="carousel slide" id="secundario-carousel" data-ride="carousel">
+      <ol class="carousel-indicators">
+       <li data-target="#secundario-carousel" data-slid-to="0" class="active"></li>
+       <li data-target="#secundario-carousel" data-slid-to="1"></li>
+       <li data-target="#secundario-carousel" data-slid-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+       <div class="carousel-item active">
+         <div class="carousel-caption d-block">
+          <h4>Titulo de la imagen</h4>
+          <p>
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
+          </p>
+         </div>
+         <img src="../img/carousel1.jpg" alt="">
+       </div>
+       <div class="carousel-item">
+         <img src="../img/carousel2.jpg" alt="">
+       </div>
+       <div class="carousel-item">
+         <img src="../img/carousel3.jpg" alt="">
+       </div>
+      </div>
+      <a href="#secundario-carousel" class="carousel-control-prev" data-slide="prev">
+       <span class="carousel-control-prev-icon" aria-hidenn="true"></span>
+       <span class="sr-only">Anterior</span>
+      </a>
+
+      <a href="#secundario-carousel" class="carousel-control-next" data-slide="next">
+       <span class="carousel-control-next-icon" aria-hidenn="true"></span>
+       <span class="sr-only">Siguiente</span>
+      </a>
+     </div>
+
+    </div>
+   </div>
+  </div>
+  <script type="text/javascript" src="../js/jquery-3.5.0.min.js"></script>
+  <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+ </body>
+</html>
