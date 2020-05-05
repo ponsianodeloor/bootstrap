@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <title>Tabs</title>
+ </head>
+ <body>
+  <div class="container">
+
+   <div class="row mt-3">
+    <div class="col">
+     <nav class="nav nav-tabs">
+      <a href="#" class="nav-item nav-link active">Inicio</a>
+      <a href="#" class="nav-item nav-link">Blog</a>
+      <a href="#" class="nav-item nav-link disabled">Proximamente</a>
+      <a href="#" class="nav-item nav-link">Contacto</a>
+     </nav>
+    </div>
+   </div>
+
+   <div class="row mt-3">
+    <div class="col">
+     <nav class="nav nav-pills">
+      <a href="#" class="nav-item nav-link active">Inicio</a>
+      <a href="#" class="nav-item nav-link">Blog</a>
+      <a href="#" class="nav-item nav-link disabled">Proximamente</a>
+      <a href="#" class="nav-item nav-link">Contacto</a>
+     </nav>
+    </div>
+   </div>
+
+   <div class="row mt-3">
+    <div class="col">
+     <nav class="nav nav-pills nav-fill">
+      <a href="#" class="nav-item nav-link active">Inicio</a>
+      <a href="#" class="nav-item nav-link">Blog</a>
+      <a href="#" class="nav-item nav-link disabled">Proximamente</a>
+      <a href="#" class="nav-item nav-link">Contacto</a>
+     </nav>
+    </div>
+   </div>
+
+   <div class="row mt-3">
+    <div class="col">
+     <nav class="nav nav-pills nav-fill">
+      <a href="#" class="nav-item nav-link active">Inicio</a>
+      <a href="#" class="nav-item nav-link">Blog</a>
+      <a href="#" class="nav-item nav-link disabled">Proximamente</a>
+      <a href="#" class="nav-item nav-link">Contacto</a>
+     </nav>
+    </div>
+   </div>
+
+   <div class="row mt-3">
+    <div class="col">
+     <ul class="nav nav-tabs">
+       <li class="nav-item">
+         <a class="nav-link active" href="#">Active</a>
+       </li>
+       <li class="nav-item dropdown">
+         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+         <div class="dropdown-menu">
+           <a class="dropdown-item" href="#">Action</a>
+           <a class="dropdown-item" href="#">Another action</a>
+           <a class="dropdown-item" href="#">Something else here</a>
+           <div class="dropdown-divider"></div>
+           <a class="dropdown-item" href="#">Separated link</a>
+         </div>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="#">Link</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link disabled" href="#">Disabled</a>
+       </li>
+     </ul>
+    </div>
+   </div>
+
+   <div class="row mt-3 mb-5">
+    <div class="col">
+     <ul class="nav nav-pills">
+       <li class="nav-item">
+         <a class="nav-link active" href="#">Active</a>
+       </li>
+       <li class="nav-item dropdown">
+         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+         <div class="dropdown-menu">
+           <a class="dropdown-item" href="#">Action</a>
+           <a class="dropdown-item" href="#">Another action</a>
+           <a class="dropdown-item" href="#">Something else here</a>
+           <div class="dropdown-divider"></div>
+           <a class="dropdown-item" href="#">Separated link</a>
+         </div>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="#">Link</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link disabled" href="#">Disabled</a>
+       </li>
+     </ul>
+    </div>
+   </div>
+
+   <div class="w1-00">
+
+   </div>
+
+   <div class="row mt-5">
+    <div class="col">
+     <ul class="nav nav-tabs">
+       <li class="nav-item">
+         <a class="nav-link active" href="#tab1" data-toggle="tab">Inicio</a>
+       </li>
+       <li class="nav-item dropdown">
+         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+         <div class="dropdown-menu">
+           <a class="dropdown-item" href="#tab1" data-toggle="tab">Categoria 1</a>
+           <a class="dropdown-item" href="#tab2" data-toggle="tab">Categoria 2</a>
+           <a class="dropdown-item" href="#tab3" data-toggle="tab">Categoria 3</a>
+           <div class="dropdown-divider"></div>
+           <a class="dropdown-item" href="#tab4">Contacto</a>
+         </div>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="#tab2" data-toggle="tab">Tab 3</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="#tab3" data-toggle="tab">Tab 4</a>
+       </li>
+     </ul>
+
+     <div class="tab-content">
+      <div class="tab-pane active" id="tab1" role="tabpanel">
+       <h3>Panel 1</h3>
+       <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
+       </p>
+      </div>
+
+      <div class="tab-pane" id="tab2" role="tabpanel">
+       <h3>Panel 2</h3>
+       <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
+       </p>
+      </div>
+
+      <div class="tab-pane" id="tab3" role="tabpanel">
+       <h3>Panel 3</h3>
+       <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
+       </p>
+      </div>
+     </div>
+    </div>
+   </div>
+
+
+  </div>
+  <script type="text/javascript" src="../js/jquery-3.5.0.min.js"></script>
+  <script type="text/javascript" src="../js/popper-1.16.0.min.js"></script>
+  <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+
+ </body>
+</html>
