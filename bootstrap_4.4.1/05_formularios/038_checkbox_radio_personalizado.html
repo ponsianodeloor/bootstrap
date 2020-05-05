@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <title>Formularios</title>
+ </head>
+ <body>
+  <div class="container">
+   <div class="row mt-3">
+    <div class="col">
+     <form class="" action="index.html" method="post">
+      <h2>Checkbox personalizados</h2>
+
+
+      <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
+      <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+        <option selected>Choose...</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+      </select>
+      
+      <div class="custom-control custom-checkbox mr-sm-2">
+        <input type="checkbox" class="custom-control-input" id="customControlAutosizing">
+        <label class="custom-control-label" for="customControlAutosizing">Remember my preference</label>
+      </div>
+
+      <div class="form-check">
+       <label class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input">Terminos y condiciones
+        <span class="custom-control-indicator"></span>
+        <span class="custom-control-descripcion">Acepto terminos y condiciones</span>
+       </label>
+      </div>
+      <div class="form-check">
+       <label for="form-check-label">
+        <input type="checkbox" name="politica_de_privacidad" class="form-check-input mr-3">Politica de privacidad
+       </label>
+      </div>
+
+      <div class="form-radio">
+       <label for="form-radio-label">
+        <input type="radio" name="sexo" class="form-radio-input mr-3">Hombre
+       </label>
+
+      </div>
+      <div class="form-radio">
+       <label for="form-radio-label">
+        <input type="radio" name="sexo" class="form-radio-input mr-3">Mujer
+       </label>
+      </div>
+
+
+
+      <input type="submit" name="" value="Guardar" class="btn btn-primary btn-block">
+
+     </form>
+    </div>
+   </div>
+  </div>
+  <script type="text/javascript" src="../js/jquery-3.5.0.min.js"></script>
+  <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+ </body>
+</html>
