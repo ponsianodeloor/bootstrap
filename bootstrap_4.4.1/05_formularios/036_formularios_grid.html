@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <title>Formularios</title>
+ </head>
+ <body>
+  <div class="container">
+   <div class="row mt-3">
+    <div class="col">
+     <form class="" action="index.html" method="post">
+
+      <div class="form-group row">
+
+       <div class="col-12 col-md-6">
+        <label for="nombre">Nombre</label>
+        <input type="text" class="form-control" placeholder="nombre" name="nombre" id="nombre">
+       </div>
+
+       <div class="col-12 col-md-6">
+        <label for="pass">Password</label>
+        <input type="password" class="form-control" placeholder="*****" name="pass" id="pass">
+       </div>
+
+      </div>
+
+      <div class="form-group row">
+       <div class=" col-12 col-md-6 mb-3">
+        <label for="mensaje">Text area</label>
+        <textarea name="mensaje" id="mensaje" class="form-control"></textarea>
+       </div>
+       <div class="col-12 col-md-3">
+        <label>Sexo</label>
+        <div class="form-radio">
+         <label for="form-radio-label">
+          <input type="radio" name="sexo" class="form-radio-input mr-3">Hombre
+         </label>
+        </div>
+        <div class="form-radio">
+         <label for="form-radio-label">
+          <input type="radio" name="sexo" class="form-radio-input mr-3">Mujer
+         </label>
+        </div>
+       </div>
+
+       <div class="col-12 col-md-3">
+         <label for="paises">Seleccionar Pais</label>
+         <select class="form-control" name="paises" id="paises">
+          <option value="1">Ecuador</option>
+          <option value="1">Colombia</option>
+          <option value="1">Mexico</option>
+         </select>
+       </div>
+
+      </div>
+
+
+      <div class="form-check row">
+       <div class="col-12 text-center">
+        <label for="form-check-label">
+         <input type="checkbox" name="terminos_y_condiciones" class="form-check-input mr-3">Terminos y condiciones
+        </label>
+       </div>
+
+       <input type="submit" name="" value="Guardar" class="btn btn-primary btn-block mt-2">
+      </div>
+
+
+
+     </form>
+    </div>
+   </div>
+  </div>
+  <script type="text/javascript" src="../js/jquery-3.5.0.min.js"></script>
+  <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+ </body>
+</html>
