@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <style media="screen">
+   .contenedor{
+    margin-bottom: 20px;
+    background: #0275d8;
+    color: #fff;
+    height: 100px;
+   }
+   .contenedor div{
+    background: rgba(255,255,255, .2);
+    padding: 15px;
+    border: 1px solid #000;
+   }
+  </style>
+  <title>Flexbox</title>
+ </head>
+ <body>
+
+  <div class="container">
+   <div class="row my-4">
+    <div class="col">
+
+     <!--
+     align-self-start
+     align-self-center
+     align-self-end
+     align-self-baseline
+     align-self-strech
+
+     align-self-sm-start
+     align-self-sm-center
+     align-self-sm-end
+     align-self-sm-baseline
+     align-self-sm-strech
+
+     align-self-md-start
+     align-self-md-center
+     align-self-md-end
+     align-self-md-baseline
+     align-self-md-strech
+
+     align-self-lg-start
+     align-self-lg-center
+     align-self-lg-end
+     align-self-lg-baseline
+     align-self-lg-strech
+
+     align-self-xl-start
+     align-self-xl-center
+     align-self-xl-end
+     align-self-xl-baseline
+     align-self-xl-strech
+     -->
+     <h4>Align Items</h4>
+     <p>align-items-start</p>
+     <div class="contenedor d-flex">
+      <div class="align-self-start">Aligned flex item</div>
+      <div class="align-self-start">Aligned flex item</div>
+      <div class="align-self-start">Aligned flex item</div>
+     </div>
+
+     <p>align-items-center</p>
+     <div class="contenedor d-flex">
+      <div class="align-self-center">Aligned flex item</div>
+      <div class="align-self-center">Aligned flex item</div>
+      <div class="align-self-center">Aligned flex item</div>
+     </div>
+
+     <p>align-items-end</p>
+     <div class="contenedor d-flex">
+      <div class="align-self-end">Aligned flex item</div>
+      <div class="align-self-end">Aligned flex item</div>
+      <div class="align-self-end">Aligned flex item</div>
+     </div>
+
+     <p>align-items baseline-</p>
+     <div class="contenedor d-flex">
+      <div class="align-self-baseline">Aligned flex item</div>
+      <div class="align-self-baseline">Aligned flex item</div>
+      <div class="align-self-baseline">Aligned flex item</div>
+     </div>
+     <p>align-items-strech</p>
+     <div class="contenedor d-flex">
+      <div class="align-self-stretch">Aligned flex item</div>
+      <div class="align-self-stretch">Aligned flex item</div>
+      <div class="align-self-stretch">Aligned flex item</div>
+     </div>
+
+    </div>
+   </div>
+   <div class="row my-4">
+    <div class="col">
+     <h4>Aling self</h4>
+     <div class="contenedor d-flex">
+      <div class="align-self-start">Aligned flex item</div>
+      <div class="align-self-end">Aligned flex item</div>
+      <div class="align-self-center">Aligned flex item</div>
+      <div class="align-self-baseline">Aligned flex item</div>
+      <div class="align-self-stretch">Aligned flex item</div>
+     </div>
+
+    </div>
+   </div>
+  </div>
+  <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="../js/popper-1.16.0.min.js"></script>
+  <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+ </body>
+</html>
