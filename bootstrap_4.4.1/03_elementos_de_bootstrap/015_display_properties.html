@@ -17,11 +17,19 @@
  <body>
   <div class="container">
    <div class="row">
-    <div class="col columna d-block d-sm-none">xs</div>
-    <div class="col columna d-none d-sm-block d-md-none">sm</div>
-    <div class="col columna d-none d-md-block d-lg-none">md</div>
-    <div class="col columna d-none d-lg-block d-xl-none">lg</div>
-    <div class="col columna d-none d-xl-block">XL</div>
+    <div class="col columna d-none">Hidden on all</div>
+    <div class="col columna d-none d-sm-block">Hidden only on xs</div>
+    <div class="col columna d-sm-none d-md-block">Hidden only on sm</div>
+    <div class="col columna d-md-none d-lg-block">Hidden only on md</div>
+    <div class="col columna d-lg-none d-xl-block">Hidden only on lg</div>
+    <div class="col columna d-xl-none">Hidden only on xl</div>
+
+    <div class="col columna d-block">Visible on all</div>
+    <div class="col columna d-block d-sm-none">Visible only on xs</div>
+    <div class="col columna d-none d-sm-block d-md-none">Visible only on sm</div>
+    <div class="col columna d-none d-md-block d-lg-none">Visible only on md</div>
+    <div class="col columna d-none d-lg-block d-xl-none">Visible only on lg</div>
+    <div class="col columna d-none d-xl-block">Visible only on xl</div>
    </div>
    <div class="row">
     <div class="col">
